@@ -1,0 +1,33 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+            float dollar;
+
+            float bp=(1/1.487);
+
+            float frnc=(1/0.172);
+
+            float dutchmark=(1/0.584);
+
+            float yen=(1/0.00955);
+
+            cout<<"Enter the Dollars for Conversion :\n";
+
+            cin>>dollar;
+
+            cout<<"British Pounds :"<<bp*dollar<<endl;
+
+            cout<<"French franc :"<<frnc*dollar<<endl;
+
+            cout<<"German Dutchmark :"<<dutchmark*dollar<<endl;
+
+            cout<<"Japanese Yen :"<<yen*dollar<<endl;
+
+            return 0;
+
+}
